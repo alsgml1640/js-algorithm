@@ -1,3 +1,4 @@
+// 세 수 의 최솟값
 function solution(a, b, c) {
   let answer;
   if (a < b) {
