@@ -5,7 +5,6 @@ function solution(n) {
   for (let i = 0; i <= n; i++) {
     answer += i;
   }
-
   return answer;
 }
 

@@ -1,5 +1,4 @@
 // 최솟값 구하기
-
 function solution(arr) {
   let answer;
   let min = Number.MAX_SAFE_INTEGER;
@@ -10,6 +9,10 @@ function solution(arr) {
     }
     answer = min;
   });
+
+  // 2번째 방법
+  // let answer = Math.min(...arr);
+  // let answer = Math.min.apply(null, arr);
   return answer;
 }
 
