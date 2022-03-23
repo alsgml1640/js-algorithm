@@ -36,8 +36,8 @@ function solution(h, m, time) {
   if (m + time >= 60) {
     h = h + Hadd;
     m = Madd;
-    if (h === 24) {
-      h = 0;
+    if (h >= 24) {
+      h = h - 24;
     }
   } else if (m + time < 60) {
     m = m + time;
