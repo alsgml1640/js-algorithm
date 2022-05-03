@@ -15,8 +15,7 @@ for (let i = 97; i < 123; i++) {
 
 const result = [];
 rl.on('line', function (line) {
-    // console.log(line.indexOf('a'));
-    // console.log(line.includes('a'));
+
     for (let i = 0; i < AZ.length; i++) {
         if (line.includes(AZ[i])) {
             result.push(line.indexOf(AZ[i]));
